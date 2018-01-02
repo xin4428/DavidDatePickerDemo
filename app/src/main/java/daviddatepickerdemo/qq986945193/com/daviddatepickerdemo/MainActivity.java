@@ -1,8 +1,6 @@
 package daviddatepickerdemo.qq986945193.com.daviddatepickerdemo;
 
 
-import java.util.Calendar;
-
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
@@ -12,6 +10,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
+
+import java.util.Calendar;
 /**
  * @author ：程序员小冰
  * @新浪微博 ：http://weibo.com/mcxiaobing
@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);  //   我是测试
 
         btn = (Button) findViewById(R.id.dateChoose);
         dateDisplay = (TextView) findViewById(R.id.dateDisplay);
